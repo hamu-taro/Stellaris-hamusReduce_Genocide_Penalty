@@ -1,0 +1,114 @@
+#########################################################################
+# OPINION MODIFIERS
+##########################################################################
+# They just genocided a Pop
+opinion_genocidal = {
+	opinion = {
+		base = 0
+		modifier = {
+			add = -5
+			NOR = { 
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire 
+			} 		
+		}		
+		modifier = {
+			add = -5
+			has_ethic = "ethic_egalitarian"
+			allows_purge = no
+			NOR = { 
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire 
+			} 
+		}
+		modifier = {
+			add = -10
+			has_ethic = "ethic_fanatic_egalitarian"
+			allows_purge = no
+			NOR = { 
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire 
+			} 
+		}
+		modifier = {
+			add = -5
+			has_ethic = "ethic_xenophile"
+			allows_purge = no
+			NOR = { 
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire 
+			} 
+		}
+		modifier = {
+			add = -10
+			has_ethic = "ethic_fanatic_xenophile"
+			allows_purge = no
+			NOR = { 
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire 
+			} 
+		}	
+		modifier = {
+			add = -5
+			has_ai_personality = awakened_fallen_empire_xenophile
+		}			
+	}
+	
+	accumulative = yes
+	
+	min = -1000
+
+	decay = {
+		base = 20
+	}
+}
+
+# They just genocided our species
+opinion_genocidal_our_species = {
+	opinion = {
+		base = -25		
+	}
+	
+	accumulative = yes
+	
+	min = -1000
+
+	decay = {
+		base = 20
+	}
+}
+
+# They just bombed a pop to death
+opinion_nuker = {
+	opinion = {
+		base = 0
+		modifier = {
+			add = -5
+			NOT = { has_ethic = "ethic_militarist" }
+			NOT = { has_ethic = "ethic_fanatic_militarist" }
+			is_country_type = default
+		}		
+		modifier = {
+			add = -5
+			has_ethic = "ethic_pacifist"
+			is_country_type = default 
+		}
+		modifier = {
+			add = -10
+			has_ethic = "ethic_fanatic_pacifist"
+			is_country_type = default
+		}		
+		modifier = {
+			add = -5
+			has_ai_personality = awakened_fallen_empire_xenophile
+		}		
+	}
+	
+	min = -100
+	
+	accumulative = yes
+
+	decay = {
+		base = 5
+	}
+}
