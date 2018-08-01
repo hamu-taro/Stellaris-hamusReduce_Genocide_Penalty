@@ -11,7 +11,7 @@
 1年毎の外交態度回復量 1 -> 5	最低(-100)になっても20年で0に戻ります。   
 
 # リンク
-steam workshop : 
+steam workshop : https://steamcommunity.com/sharedfiles/filedetails/?id=1461296682   
 
 # 変更履歴
 1.00b	試験公開
