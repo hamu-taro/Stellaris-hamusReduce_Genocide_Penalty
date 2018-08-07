@@ -1,4 +1,4 @@
-name="hamusReduce Genocide Penalty"
+name="hamusReduce Genocide Penalty[JP]"
 path="mod/hamus_reduce_genocide_penalty"
 tags={
 	"Balance"
