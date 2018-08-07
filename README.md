@@ -14,5 +14,5 @@
 steam workshop : https://steamcommunity.com/sharedfiles/filedetails/?id=1461296682   
 
 # 変更履歴
-2018/08/07  1.00  Stellaris-v2.1.1 対応
-2018/08/01  1.00b 試験公開
+2018/08/07  1.00  Stellaris-v2.1.* 対応   
+2018/08/01  1.00b 試験公開   
